@@ -20,6 +20,9 @@ Route::get('/contactus', function () {
     return view('contactus');
 });
 
+Route::post('contact','ContactController@store');
+/*Route::resource('contactus','ContactusController');*/
+
 Route::get('/aboutus', function () {
     return view('aboutus');
 });
