@@ -20,6 +20,10 @@ Route::get('/contactus', function () {
     return view('contactus');
 });
 
+Route::get('/registration', function () {
+    return view('registration');
+});
+
 Route::post('contact','ContactController@store');
 /*Route::resource('contactus','ContactusController');*/
 
@@ -31,3 +35,4 @@ Route::get('/aboutus', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+Route::post('/callregister', 'RegistraionController@store');

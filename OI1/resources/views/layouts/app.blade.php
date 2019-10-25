@@ -14,7 +14,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
-
+<link rel="stylesheet" type="text/css" href="css/drop-downcss.css">
     <style>
         body {
             font-family: 'Lato';
@@ -52,6 +52,34 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/contactus') }}">Contact</a></li>
                 </ul>
+
+                
+
+                 <div class="dropdown">
+                   <button class="dropbtn">Policies</button>
+                  <div class="dropdown-content">
+
+                 <a href="#"><img src="image/car-side-view.svg" height="20px" width="40px"/>Car Insurance</a>
+                 <a href="#"><img src="image/motorcycle-side-view.svg" height="20px" width="40px"/>Bike Insurance</a>
+                 <a href="#"><img src="image/home-icon.svg" height="20px" width="40px"/>Home Insurance</a>
+                <a href="#"><img src="image/mobile-screen-glare.svg" height="20px" width="40px"/>Mobile Insurance</a>
+                <a href="#"><img src="image/laptopNew.png" height="20px" width="40px"/>Laptop Insurance</a>
+
+              </div>
+               </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
 
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
