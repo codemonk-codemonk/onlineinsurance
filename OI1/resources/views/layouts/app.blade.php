@@ -49,9 +49,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/home') }}">Home</a></li>
                 </ul>
-                <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/contactus') }}">Contact</a></li>
-                </ul>
+                
 
                 
 
@@ -59,11 +57,11 @@
                    <button class="dropbtn">Policies</button>
                   <div class="dropdown-content">
 
-                 <a href="#"><img src="image/car-side-view.svg" height="20px" width="40px"/>Car Insurance</a>
-                 <a href="#"><img src="image/motorcycle-side-view.svg" height="20px" width="40px"/>Bike Insurance</a>
+                 <a href="{{ url('/callcar') }}"><img src="image/car-side-view.svg" height="20px" width="40px"/>Car Insurance</a>
+                 <a href="{{ url('/callbike') }}"><img src="image/motorcycle-side-view.svg" height="20px" width="40px"/>Bike Insurance</a>
                  <a href="#"><img src="image/home-icon.svg" height="20px" width="40px"/>Home Insurance</a>
-                <a href="#"><img src="image/mobile-screen-glare.svg" height="20px" width="40px"/>Mobile Insurance</a>
-                <a href="#"><img src="image/laptopNew.png" height="20px" width="40px"/>Laptop Insurance</a>
+                <a href="{{ url('/callmobile') }}"><img src="image/mobile-screen-glare.svg" height="20px" width="40px"/>Mobile Insurance</a>
+                <a href="{{ url('/calllaptop') }}"><img src="image/laptopNew.png" height="20px" width="40px"/>Laptop Insurance</a>
 
               </div>
                </div>
@@ -79,7 +77,7 @@
 
 
 
-                
+
 
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
@@ -100,6 +98,7 @@
                             </ul>
                         </li>
                     @endif
+                    
                 </ul>
             </div>
         </div>

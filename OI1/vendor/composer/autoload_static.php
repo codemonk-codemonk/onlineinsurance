@@ -283,7 +283,11 @@ class ComposerStaticInit97fe2d800edccacc0ebb21e579f3c370
     );
 
     public static $classMap = array (
+        'CreateBikeformsTable' => __DIR__ . '/../..' . '/database/migrations/2019_10_25_113421_create_bikeforms_table.php',
+        'CreateCarformsTable' => __DIR__ . '/../..' . '/database/migrations/2019_10_25_104726_create_carforms_table.php',
         'CreateContactsTable' => __DIR__ . '/../..' . '/database/migrations/2019_10_22_134405_create_contacts_table.php',
+        'CreateLaptopformsTable' => __DIR__ . '/../..' . '/database/migrations/2019_10_25_162912_create_Laptopforms_table.php',
+        'CreateMobileformsTable' => __DIR__ . '/../..' . '/database/migrations/2019_10_25_162057_create_Mobileforms_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateRegistersTable' => __DIR__ . '/../..' . '/database/migrations/2019_10_24_094924_create_Registers_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',

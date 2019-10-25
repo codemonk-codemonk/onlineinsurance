@@ -16,6 +16,40 @@ Route::get('/', function () {
 });
 
 
+Route::get('/callcar', function () {
+    return view('car-insurance');
+});
+
+Route::get('/callcarform', function () {
+    return view('car_form');
+});
+
+
+Route::get('/callbike', function () {
+    return view('bike-insurance');
+});
+
+Route::get('/callbikeform', function () {
+    return view('bike_form');
+});
+
+
+Route::get('/callmobile', function () {
+    return view('mobile-insurance');
+});
+
+Route::get('/callmobileform', function () {
+    return view('mobile_form');
+});
+
+Route::get('/calllaptop', function () {
+    return view('laptop-insurance');
+});
+
+Route::get('/calllaptopform', function () {
+    return view('laptop_form');
+});
+
 Route::get('/contactus', function () {
     return view('contactus');
 });
@@ -25,6 +59,10 @@ Route::get('/registration', function () {
 });
 
 Route::post('contact','ContactController@store');
+Route::post('/callcarform','CarFormController@store');
+Route::post('/callbikeform','BikeFormController@store');
+
+
 /*Route::resource('contactus','ContactusController');*/
 
 Route::get('/aboutus', function () {
@@ -35,4 +73,10 @@ Route::get('/aboutus', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+
+
+
 Route::post('/callregister', 'RegistraionController@store');
+Route::post('/callmobileform', 'MobileController@store');
+Route::post('/calllaptopform', 'LaptopController@store');
