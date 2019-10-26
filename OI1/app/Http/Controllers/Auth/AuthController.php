@@ -49,10 +49,19 @@ class AuthController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|max:255',
-            'phone' => 'required',
+            'name' => 'required|max:255|alpha',
+            'dob'=>'required|date',
             'email' => 'required|email|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
+            'mobno'=>'required',
+            'gender'=>'',
+            'address'=>'',
+              'pincode' => 'required',
+              'city' => 'required|max:30|alpha',
+              'state' => 'required|max:20|alpha',
+              'country' => 'required|max:20|alpha',
+              'uploadfile'=>'required'
+
         ]);
     }
 
@@ -66,9 +75,17 @@ class AuthController extends Controller
     {
         return User::create([
             'name' => $data['name'],
-            'phone' => $data['phone'],
+            'dob'=>$data['dob'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'mobno'=>$data['mobno'],
+            'gender'=>$data['gender'],
+            'address'=>$data['address'],
+            'pincode'=>$data['pincode'],
+            'city'=>$data['city'],
+            'state'=>$data['state'],
+            'country'=>$data['country'],
+            'uploadfile'=>$data['uploadfile']
         ]);
     }
 }
