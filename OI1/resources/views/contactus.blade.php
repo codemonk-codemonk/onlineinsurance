@@ -1,11 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>BizPage Bootstrap Template</title>
+  <title>contact us</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -30,12 +33,7 @@
   <!-- Main Stylesheet File -->
   <link href="css/styles.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: BizPage
-    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+
 </head>
 
 <body>
@@ -51,7 +49,7 @@
 
         <div class="section-header">
           <h3>Contact Us</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p>If you have any problem contact us and suggest to us and give us your valuable feedback.</p>
         </div>
 
         <div class="row contact-info">
@@ -60,7 +58,7 @@
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <address>PG Hostel MNNIT Allahabad,Pryagraj (U.P.)</address>
             </div>
           </div>
 
@@ -68,7 +66,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <p><a href="tel:+917389882804">+91 9999999991</a></p>
             </div>
           </div>
 
@@ -76,24 +74,18 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p><a href="mailto:info@gmail.com">Code_Monk.mnnit.net</a></p>
             </div>
           </div>
 
         </div>
 
-
-
-
         <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
-          <form action="{{url('contact')}}" method="POST"> 
-             {{csrf_field()}}
+          <form action="" method="post" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
-
-
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
@@ -145,44 +137,44 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>BizPage</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+            <h3>Online Insurance</h3>
+            <p>Online Insurance by Code_Monk provides valuable services for our client because our client is not a client, our client is the resource and backbone of our company.The Code_Monk has the vision for the future for those who take insurance for everything.  </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="file:///C:/Users/Adarsh/Desktop/Web%20Devloper/front%20page/Main.html">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="file:///C:/Users/Adarsh/Desktop/Web%20Devloper/front%20page/About_us.html">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Contact Us</a></li>
+              
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              PG Hostel <br>
+              MNNIT Allahbad<br>
+              U.P. <br>
+              <strong>Phone:</strong> +91 9999999991<br>
+              <strong>Email:</strong>Code_Monk.mnnit.net<br>
             </p>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://twitter.com/login?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100026663238839" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/adarsh__rajput___/" class="instagram"><i class="fa fa-instagram"></i></a>
+              
+              <a href="https://www.linkedin.com/in/adarsh-rajput-287815178/" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <p>New Insurance for  mobile!!!
+Code_Monk launches on Monday at ist 4 p.m Mobile Insurance for all mobile brands such as iPhones, Samsung, Nokia, along with 22 Mobile brands.</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit"  value="Subscribe">
             </form>
@@ -194,7 +186,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+        &copy; Copyright <strong>Online Insurance</strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!--
@@ -203,7 +195,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
         -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Code_Monk</a>
       </div>
     </div>
   </footer><!-- #footer -->
@@ -232,6 +224,4 @@
 
 </body>
 </html>
-
-
 @endsection
