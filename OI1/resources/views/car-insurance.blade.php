@@ -180,8 +180,9 @@
 </div>
 </section>
 <br><br>
+<!--
     <center>
-   
+
     @if(!Auth::guest())
      <form action="{{ url('/callcarform') }}">
     <button type="submit" class="btn btn-success">Continue</button>
@@ -192,7 +193,12 @@
     </form>
     @endif
   </center>
-
+-->
+<center>
+<form action="{{ url('/callpolicy') }}"   >
+<button type="submit" class="btn btn-success">Check Insurance Policy For Your Car</button>
+</form>
+</center>
 
 <br><br><br><br>
 
@@ -203,7 +209,7 @@
         <script sazsrc="js/jquery-3.4.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-   
+
 
 </body>
 </html>

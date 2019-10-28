@@ -183,8 +183,9 @@
 </section>
 <br><br>
 
+<!--
   <center>
-   
+
     @if(!Auth::guest())
      <form action="{{ url('/callbikeform') }}">
     <button type="submit" class="btn btn-success">Continue</button>
@@ -195,6 +196,12 @@
     </form>
     @endif
   </center>
+-->
+<center>
+<form action="{{ url('/callpolicy') }}">
+<button type="submit" class="btn btn-success">Check Insurance Policy For Your Bike</button>
+</form>
+</center>
 
 <br><br><br><br>
 

@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">  -->
 	<link rel="stylesheet" href="css/style.css">
- 
+
     <title>Document</title>
 </head>
 <body>
@@ -46,23 +46,23 @@
                                       <li class="list-menu__item">
                                <b>New &amp; Used phones</b> - Now mobile insurance for brand new phones as well as old/used ones.
                             </li>
-                        
+
                                       <li class="list-menu__item">
                                <b>Accidental Screen damage covered</b> - Screen damages are the most common of all heartbreaks! All screen damages due to accidental or liquid damage are covered!
                             </li>
-                        
+
                                       <li class="list-menu__item">
                                <b>Low prices</b> - Buy this mobile insurance cover at almost the cost of a Screen Guard!
                             </li>
-                        
+
                                       <li class="list-menu__item">
                                <b>Worldwide cover</b> - Travel around the world worry-free. Our mobile insurance policy is valid everywhere.
                             </li>
-                        
+
                                       <li class="list-menu__item">
                                <b>IMEI linked cover</b> - Whether you use the phone or your family or friend does, this mobile insurance policy will be valid for all. It is linked to the IMEI of the phone &amp; not the user.
                             </li>
-                        
+
                                       <li class="list-menu__item">
                                <b>Reimburse up to Sum Insured</b> - At the time of buying, we will show you an amount, called Sum Insured. Post claim approval, you can get your repair costs reimbursed up to your respective sum insured.
                             </li>
@@ -74,9 +74,9 @@
     </div>
 </section></div>
 
-
+<!--
   <center>
-   
+
     @if(!Auth::guest())
      <form action="{{ url('/callmobileform') }}">
     <button type="submit" class="btn btn-success">Continue</button>
@@ -87,10 +87,15 @@
     </form>
     @endif
   </center>
+-->
 
 <br><br><br><br>
 
-
+<center>
+<form action="{{ url('/callpolicy') }}">
+<button type="submit" class="btn btn-success">Check Insurance Policy For Your Mobile</button>
+</form>
+</center>
 
 
         <script sazsrc="js/jquery-3.4.1.js"></script>

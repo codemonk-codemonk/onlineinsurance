@@ -13,26 +13,23 @@ h3{
   font-style: normal; 
   font-weight: bold; 
   color:black;
-  text-align: right; 
+  text-align: center; 
   text-decoration: underline
 }
 
 table{
-  font-family: Calibri;
-
+  font-family: Calibri; 
   color:black; 
   font-size: 15pt; 
   font-style: normal;
   font-weight: bold;
-  table-layout: auto;
-  text-align: ;
-  
+  text-align:; 
   background-color:white; 
   border-collapse: collapse; 
-  border: 4px solid black
+  border: 2px solid black
 }
 table.inner{
-  border: 5px
+  border: 0px
 }
 
 
